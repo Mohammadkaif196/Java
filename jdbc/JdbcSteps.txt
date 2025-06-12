@@ -1,0 +1,20 @@
+import Packages
+→ Use import java.sql.*; to access JDBC classes.
+
+Load Driver
+→ Loads the database driver class (e.g., MySQL driver,postgresql driver).
+
+Establish Connection
+→ Connects Java to the database using DriverManager.
+
+Create Statement
+→ Prepares SQL statements to send to the database.
+
+Execute Query/Update
+→ Runs SQL commands (like SELECT, INSERT, etc.).
+
+Process Results
+→ Reads and uses the results (for SELECT queries).
+
+Close Resources
+→ Frees up memory by closing ResultSet, Statement, and Connection.

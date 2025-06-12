@@ -1,0 +1,88 @@
+     +----------------+
+     |  validate      |
+     +----------------+
+     | Check the      |
+     | project is     |
+     | correct and    |
+     | all necessary  |
+     | info is there  |
+     +----------------+
+     | Command:       |
+     | mvn validate   |
+     +----------------+
+
+             ↓
+
+     +----------------+
+     |  compile       |
+     +----------------+
+     | Compile the    |
+     | source code    |
+     +----------------+
+     | Command:       |
+     | mvn compile    |
+     +----------------+
+
+             ↓
+
+     +----------------+
+     |  test          |
+     +----------------+
+     | Run unit tests |
+     | (in src/test)  |
+     +----------------+
+     | Command:       |
+     | mvn test       |
+     +----------------+
+
+             ↓
+
+     +----------------+
+     |  package       |
+     +----------------+
+     | Package code   |
+     | (JAR/WAR file) |
+     +----------------+
+     | Command:       |
+     | mvn package    |
+     +----------------+
+
+             ↓
+
+     +----------------+
+     |  verify        |
+     +----------------+
+     | Run checks to  |
+     | ensure the     |
+     | package is     |
+     | valid          |
+     +----------------+
+     | Command:       |
+     | mvn verify     |
+     +----------------+
+
+             ↓
+
+     +----------------+
+     |  install       |
+     +----------------+
+     | Install JAR    |
+     | into local     |
+     | repository     |
+     +----------------+
+     | Command:       |
+     | mvn install    |
+     +----------------+
+
+             ↓
+
+     +----------------+
+     |  deploy        |
+     +----------------+
+     | Deploy to a    |
+     | remote repo    |
+     | (e.g., Nexus)  |
+     +----------------+
+     | Command:       |
+     | mvn deploy     |
+     +----------------+

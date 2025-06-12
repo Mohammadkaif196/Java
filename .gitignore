@@ -1,0 +1,41 @@
+# IDE specific files
+.idea/
+.vscode/
+*.iml
+
+# Build output
+out/
+target/
+build/
+
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# Package files
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# macOS specific
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar 
